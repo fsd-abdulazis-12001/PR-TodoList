@@ -8,7 +8,7 @@ import {v4 as uuidv4} from 'uuid';
 uuidv4();
 
 
-const TodoWrapper = () => {
+const TodoMain = () => {
 
     const [todos, setTodus] = useState([])
     const [doneTodos, setDoneTodos] = useState([]);
@@ -75,4 +75,4 @@ const TodoWrapper = () => {
   )
 }
 
-export default TodoWrapper
+export default TodoMain

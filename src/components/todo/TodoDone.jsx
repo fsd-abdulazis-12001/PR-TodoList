@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
  
-const DoneWrapper = ({ doneTodos ,deleteDoneTodo,deleteallDoneTodo}) => {
+const TodoDone = ({ doneTodos ,deleteDoneTodo,deleteallDoneTodo}) => {
 
 
   return (
@@ -21,4 +21,4 @@ const DoneWrapper = ({ doneTodos ,deleteDoneTodo,deleteallDoneTodo}) => {
   );
 };
 
-export default DoneWrapper;
+export default TodoDone;
