@@ -2,7 +2,7 @@ import React ,{ useState } from 'react'
 import TodoFrom from './TodoFrom'
 import EditTodo from './EditTodo'
         
-import DoneWrapper from './DoneWrapper'
+import DoneWrapper from './TodoDone'
 import Todo from './Todo'
 import {v4 as uuidv4} from 'uuid';
 uuidv4();
