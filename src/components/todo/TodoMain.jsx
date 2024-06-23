@@ -2,7 +2,7 @@ import React ,{ useState } from 'react'
 import TodoFrom from './TodoFrom'
 import EditTodo from './EditTodo'
         
-import DoneWrapper from './TodoDone'
+import TodoDone from './TodoDone'
 import Todo from './Todo'
 import {v4 as uuidv4} from 'uuid';
 uuidv4();
@@ -68,7 +68,7 @@ const TodoWrapper = () => {
             editTodo={editTodo}/>)
       ))}
     </div>
-          <DoneWrapper doneTodos={doneTodos} deleteDoneTodo={deleteDoneTodo} deleteallDoneTodo= {deleteallDoneTodo} />
+          <TodoDone doneTodos={doneTodos} deleteDoneTodo={deleteDoneTodo} deleteallDoneTodo= {deleteallDoneTodo} />
     </div>
   
     

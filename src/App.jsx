@@ -1,13 +1,14 @@
 import './App.css'
-import TodoWrapper from './components/todo/TodoWrapper'
 
+import HomePage from './pages/home'
+import DetailPage from './pages/detail'
 const App = () => {
 
 
   return (
     <div className='wrapper'>
-      <TodoWrapper/>
-    
+   
+      <HomePage/>
     </div>
 
 
