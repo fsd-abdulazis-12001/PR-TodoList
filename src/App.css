@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
@@ -150,7 +152,10 @@ h1 {
 .close-btn:hover {
   color: #ff0000;
 }
-
+.wrapper-btn {
+  display: flex;
+  gap: 1rem;
+}
 @media (min-width: 768px) {
   .wrapper {
     flex-direction: row;

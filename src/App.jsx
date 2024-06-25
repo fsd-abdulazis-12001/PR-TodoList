@@ -1,8 +1,9 @@
 import './App.css'
 
-import HomePage from './pages/home'
+import TodoUstate from './pages/TodoUstate'
 import Home from './home'
 import DetailPage from './pages/detail'
+import MainPage from './pages/main'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,13 +17,17 @@ const App = () => {
       children: [
         {
           index: true,
-          element: <HomePage/>
+          element: <MainPage/>
         },
         {
           path: "detail",
           element: <DetailPage/>
         }
       ]
+    }
+    ,{
+      path:"/TodoUstate",
+      element: <TodoUstate/>
     }
   ]);
 
