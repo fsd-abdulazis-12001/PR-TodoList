@@ -10,9 +10,7 @@ const index = () => {
   return (
     <div>
       Detail
-      <button onClick={() => navigate(-1)}>goto home</button>
-
-
+      <button onClick={() => navigate(-1)}>Back</button>
       <Profile count={count} setCount={setCount}/>
       <Setting count={count}/>
     </div>

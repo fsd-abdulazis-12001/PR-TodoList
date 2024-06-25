@@ -15,7 +15,6 @@ const TodoMain = () => {
 
     const addTodo = (todo) => {
         setTodus([...todos, {id: uuidv4(), task: todo, completed: false, isEditing: false}])
-       
     }
 
     const toggleComplete = (id) => {
@@ -55,7 +54,6 @@ const TodoMain = () => {
     }
   return (
     <div className='wrapper'>
-   
       <div className='todo-wrapper'>
       <button className="close-btn" onClick={() =>  setTodus([])}>X</button>
       <h1>Todo List</h1>

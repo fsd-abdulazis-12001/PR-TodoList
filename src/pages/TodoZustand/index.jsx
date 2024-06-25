@@ -1,11 +1,24 @@
-import React from 'react'
+ 
+import TodoMainZustand from '../../components/todoZustand/TodoMain'
+import { useNavigate } from 'react-router-dom';
 
-const index = () => {
+function Index() {
+ const navigate = useNavigate()
   return (
-    <div>
+      <div>
+      <h1>Zustand</h1>
+      <div className='nav-btn-wrapper'>
+      <button className='navigate-BTN' onClick={() => navigate('/')}>goto home</button>
+      <button className='navigate-BTN' onClick={() => navigate('/detail')}>goto detail</button>
+      </div>
+  
+      <div className='wrapper'>
+    
+      <TodoMainZustand/>
       
-    </div>
+      </div>
+      </div>
   )
 }
 
-export default index
+export default Index;

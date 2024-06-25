@@ -1,8 +1,8 @@
-import React from 'react'
-
+ 
+import '../../App.css'  
 const index = () => {
   return (
-    <div>
+    <div >
       <h1>Header</h1>
     </div>
   )
