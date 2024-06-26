@@ -11,7 +11,8 @@ const TodoList = () => {
     <>
       {filteredTodos().map((todo) => (
         editingId === todo.id ? (
-          <EditTodo key={todo.id} todo={todo} />
+    
+          <EditTodo key={todo.id} />
         ) : (
           <div key={todo.id} className="Todo">
             <input
