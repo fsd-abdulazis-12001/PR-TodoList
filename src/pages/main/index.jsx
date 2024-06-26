@@ -5,7 +5,7 @@ const index = () => {
     const navigate = useNavigate()
   return (
     <div className='wrapper-btn'>
-      <button className='todo-button' onClick={() => navigate('/TodoUstate')}>UState</button>
+      <button className='todo-button' onClick={() => navigate('/TodoUstate')}>useState</button>
 
       <button className='todo-button' onClick={() => navigate('/TodoZustand')}>Zustand</button>
     </div>

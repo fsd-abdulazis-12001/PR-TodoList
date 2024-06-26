@@ -1,5 +1,5 @@
  
-import React ,{ useState } from 'react'
+import { useState } from 'react'
 
 const EditTodo = ({editTodo, task}) => {
     const [value, setValue] = useState(task.task)

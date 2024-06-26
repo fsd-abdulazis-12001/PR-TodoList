@@ -2,6 +2,8 @@ import './App.css'
 
 import TodoUstate from './pages/TodoUstate'
 import TodoZustand from './pages/TodoZustand'
+import PostPage from './pages/post'
+import PokemonPage from './pages/pokemon'
 import Home from './home'
 import DetailPage from './pages/detail'
 import MainPage from './pages/main'
@@ -33,6 +35,14 @@ const App = () => {
     ,{
       path:"/TodoZustand",
       element: <TodoZustand/>
+    }
+    ,{
+      path:"/post",
+      element: <PostPage/>
+    }
+    ,{
+      path:"/pokemon",
+      element: <PokemonPage/>
     }
   ]);
 

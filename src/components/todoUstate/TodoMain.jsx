@@ -19,7 +19,7 @@ const TodoMain = () => {
 
     const toggleComplete = (id) => {
         const updatedTodos = todos.map(todo => {
-            if (todo.id === id) {
+            if (todo.id === id) {  
                 const updatedTodo = { ...todo, completed: !todo.completed };
                 if (updatedTodo.completed) {
                     setDoneTodos([...doneTodos, updatedTodo]);
