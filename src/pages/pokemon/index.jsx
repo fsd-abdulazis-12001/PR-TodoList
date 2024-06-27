@@ -1,10 +1,13 @@
-import React from 'react'
 
+import PokemonList from '../../components/pokemon/index.jsx'
+import './index.css';
 const index = () => {
+ 
   return (
     <div>
-      
-    </div>
+     <PokemonList/>
+    
+  </div>
   )
 }
 

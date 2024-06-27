@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div className='wrapper-btn'>
       <button className='todo-button' onClick={() => navigate('/TodoUstate')}>useState</button>
-
+      <button className='todo-button' onClick={() => navigate('/pokemon')}>Pokemon List</button>
       <button className='todo-button' onClick={() => navigate('/TodoZustand')}>Zustand</button>
     </div>
   )
