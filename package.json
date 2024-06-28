@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "github:fortawesome/react-fontawesome",
+    "@mui/material": "^5.15.20",
     "axios": "^1.7.2",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
