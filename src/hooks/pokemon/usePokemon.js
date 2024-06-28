@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useSearchParams } from 'react-router-dom';
 
-const usePokemon = (name = null) => {
+const usePokemon = (name) => {
   const [pokemonList, setPokemonList] = useState([]);
   const [allPokeNameList, setAllPokemonList] = useState([]);
   const [pokemon, setPokemon] = useState(null);

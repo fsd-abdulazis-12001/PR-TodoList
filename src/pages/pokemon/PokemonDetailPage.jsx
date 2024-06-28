@@ -1,12 +1,16 @@
 import { useNavigate } from 'react-router-dom';
 import UsePokemon from '../../hooks/pokemon/usePokemon';
+import { useSearchParams } from 'react-router-dom';
 
 const PokemonDetailPage = () => {
-  const { pokemon, offset } = UsePokemon();
+  const [searchParams] = useSearchParams();
+  const pokename = searchParams.get('name');
+  const { pokemon, offset } = UsePokemon(pokename);
   const navigate = useNavigate();
 
   return (
     <div>
+   
       <div className="pagination-buttons">
         <button onClick={() => navigate(`/pokemon?offset=${offset}`)}>Back</button>
       </div>
