@@ -6,9 +6,9 @@ const EditTodo = () => {
   const editTodo = useTodoStore((state) => state.editTodo);
   const setEditingId = useTodoStore((state) => state.setEditingId);
   const editingId = useTodoStore((state) => state.editingId);
-
-
   const todos = useTodoStore((state) => state.todos);
+ 
+ 
 
 
 
